@@ -1,0 +1,19 @@
+Jun 04 16:00:10 *	Now talking on #ubuntu-indonesia
+Jun 04 16:00:10 *	Topic for #ubuntu-indonesia is: Selamat menunaikan ibadah puasa 1438 H. (https://git.io/topikui)
+Jun 04 16:00:10 *	Topic for #ubuntu-indonesia set by Haji_greenshirt!~triawarma@unaffiliated/triawarman (Mon May 22 12:44:34 2017)
+Jun 04 16:00:10 -ChanServ-	[#ubuntu-indonesia] G+ Comunity http://goo.gl/kM54wa | Beladjar, diskoesi, berbagi, ataoe bertjanda tentoenja di Kanal ter-HOT se-Indonetjia | log : http://goo.gl/b5QEz1 atau http://goo.gl/ofB9ns
+Jun 04 16:00:10 *	Channel #ubuntu-indonesia url: http://ubuntu-indonesia.com/
+Jun 04 16:00:18 *	Syandal_ nunggu peserta dulu
+Jun 04 16:00:23 <Syandal_>	siap2 apanya?
+Jun 04 16:00:42 *	Syandal has quit (Quit: Bye)
+Jun 04 16:04:31 <Syandal_>	software minimarket >> https://m.kaskus.co.id/thread/5933c28c9e7404bc728b4574
+Jun 04 16:04:35 <Syandal_>	bikinan anak jogja
+Jun 04 16:06:52 <Syandal_>	bisa dijalanin pake raspberry pi
+Jun 04 16:34:32 <Syandal_>	kmaren yang vote waktunya sore nunggu buka siapa?
+Jun 04 16:34:38 <Syandal_>	mesti pak alunux nih
+Jun 04 16:34:48 *	Syandal_ waktu itu nyaranin abis subuh
+Jun 04 16:35:03 <Syandal_>	yang lain nyaranin waktunya malem abis taraweh
+Jun 04 16:35:13 <Syandal_>	===============================
+Jun 04 18:08:36 FiSHLiM plugin unloaded
+Jun 04 18:08:36 Python interface unloaded
+**** ENDING LOGGING AT Sun Jun  4 18:08:36 2017

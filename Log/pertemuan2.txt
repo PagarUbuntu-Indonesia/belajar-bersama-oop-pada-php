@@ -1,0 +1,12 @@
+Jun 03 15:56:49 <Syandal_>	sepertinya kalo materinya oop nggak ada yang tertarik
+Jun 03 15:57:29 *	Syandal_ nunggu member dulu
+Jun 03 16:12:27 <Syandal_>	kalo nggak ada yang tertarik belajar oop php.. ntar materinya tetep ane buat sampe selesai dan ditaruh di github
+Jun 03 17:30:12 *	goyol (~goyol@140.0.225.129) has joined
+Jun 03 17:30:37 *	goyol has quit (Client Quit)
+Jun 03 17:38:04 <Syandal_>	weew
+Jun 03 17:55:45 *	Syandal_ afk dulu
+Jun 03 17:55:50 <Syandal_>	selamat berbuka puasa
+Jun 03 17:55:59 <Syandal_>	kita pertemu pertemuan selanjutnya
+Jun 03 17:56:11 *	Syandal_ belajar aja nggak .. ngapain ketemuan lagi :v
+Jun 03 17:56:17 *	Disconnected ()
+**** ENDING LOGGING AT Sat Jun  3 17:56:17 2017

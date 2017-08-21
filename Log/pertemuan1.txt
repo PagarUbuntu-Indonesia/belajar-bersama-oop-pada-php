@@ -1,0 +1,304 @@
+May 28 16:09:54 <Syandal_>	seperti biasa ada yang mau jadi moderator nggak?
+May 28 16:10:31 <mampangprapatan>	itu semacam texteditor plus tester php online ya
+May 28 16:10:55 <Syandal_>	iya kek nya
+May 28 16:11:01 *	Syandal_ butuhnya kek gitu
+May 28 16:11:14 <Syandal_>	trus kode nya bisa dijadiin link dan di share linknya
+May 28 16:11:25 <Syandal_>	ada yang lain nggak selain tehplayground
+May 28 16:13:12 <dwix_>	ayo ayo
+May 28 16:13:14 <Syandal_>	baiklah karna nggak ada yang mau jadi moderator, maka yang punya hak sebagai op yang kita jadiin moderator
+May 28 16:13:18 <Syandal_>	weew
+May 28 16:13:24 *	Syandal_ gives channel operator status to dwix_
+May 28 16:13:29 *	Syandal_ gives channel operator status to alunux
+May 28 16:13:58 *	Syandal_ mau mulai kegiatannya nggak enak kalo nggak ada mastah
+May 28 16:14:08 *	Syandal_ baiklah kita mulai aja kegiatan kita
+May 28 16:14:11 *	suka|baik (~suka@unaffiliated/sukabaik/x-9504313) has joined
+May 28 16:14:11 <Syandal_>	!br
+May 28 16:14:15 <Syandal_>	===============================
+May 28 16:14:27 <Syandal_>	bismillahirrahmanirrahim, assalamu alaikum wr wb
+May 28 16:14:56 *	Syandal_ mewakili diri sendiri mengucapkan selamat datang kepada semua peserta belajar bersama di kanal #ubuntu-indonesia
+May 28 16:15:05 <dwix_>	walaikumsalam wr rb
+May 28 16:15:21 <alunux>	wa'alaykumsalam wr wb.
+May 28 16:15:41 <Syandal_>	sesuai dengan rencana kita, mulai hari ini selama bulan ramadhan kita akan melaksanakan kegiatan belajar bersama untuk materi oop pada php, silabusnya bisa dilihat di git.io/vHvzU
+May 28 16:16:03 <Syandal_>	untuk waktunya ngabuburit sabtu-minggu selama ramadhan
+May 28 16:16:42 <Syandal_>	tapi untuk minggu terakhir gimana kalo waktunya kita ubah jadi habis sholat subuh, karna kalo minggu2 terakhir biasanya banyak undangan bukber
+May 28 16:17:00 <suka|baik>	Salim kang Syandal_ 
+May 28 16:17:13 <Syandal_>	===============================
+May 28 16:17:16 <suka|baik>	Ikut mawon kang :3
+May 28 16:17:21 <Syandal_>	eh ada mastah suka|baik *sungkem
+May 28 16:17:27 <Syandal_>	monggo
+May 28 16:17:31 <Syandal_>	acaranya baru mulai 
+May 28 16:17:33 <suka|baik>	Eww :(
+May 28 16:17:54 <Syandal_>	baiklah untuk hari ini kita melaksanakan pertemuan pertama
+May 28 16:19:21 <Syandal_>	materi hari ini tentang : pengenalan array, array multidimensi, fungsi untuk array, dan operator untuk array
+May 28 16:19:35 <Syandal_>	===============================
+May 28 16:19:49 <Syandal_>	baiklah untuk mempersingkat waktu kita ke bagian pertama
+May 28 16:19:53 <Syandal_>	pengenalan aray
+May 28 16:19:54 *	wongjowo (~androirc@2401:4200:1:0:8d2b:302f:be9:1e15) has joined
+May 28 16:20:08 <Syandal_>	ada yang bisa membantu menjelaskan pengertian array nggak?
+May 28 16:20:13 *	Syandal_ kasih waktu 3 menit
+May 28 16:21:50 <Syandal_>	baiklah karna nggak ada yang mau bantuin ane yang kasih penjelesan dikit.. nanti ditambahin aja di bawah..
+May 28 16:22:00 <alunux>	Array, variabel yang dapat menyimpan banyak nilai setipe. Basisnya indeks.
+May 28 16:22:10 <Syandal_>	^ nah itu
+May 28 16:22:14 <Syandal_>	ada pendapat lain nggak
+May 28 16:22:37 <Syandal_>	array bahasa indonesianya 'larik'
+May 28 16:23:16 <Syandal_>	array bukan tipe dasar seperti int atau boolean, array adalah tipe data bentukan dari kumpulan tipe data asli
+May 28 16:24:04 <Syandal_>	ada yang mau nambahin lagi nggak
+May 28 16:24:16 <Syandal_>	atau ada yang mau bertanya dulu nggak sebelum kita masuk ke kode latihan
+May 28 16:24:20 *	dwix_ geleng-geleng
+May 28 16:24:28 <Syandal_>	^ alasannya
+May 28 16:24:42 *	Syandal_ tunggu 2 menit
+May 28 16:24:53 <Syandal_>	yang mau nanya, nanya aja dulu
+May 28 16:25:51 <Syandal_>	karena nggak ada yang mau menanggapi, kita lanjut ke contoh latihan pertama
+May 28 16:26:00 <Syandal_>	perhatikan kode latihan berikut >> https://www.tehplayground.com/6KhmXFR4CMKfITa4
+May 28 16:26:15 <Syandal_>	dari latihan 1 tersebut silahkan dicoba terlebih dahulu
+May 28 16:26:19 *	Syandal_ kasih waktu 2 menit
+May 28 16:26:30 <Syandal_>	===============================
+May 28 16:28:48 <Syandal_>	kode latihan itu di coba di ubah trus dijalanin ulang bisa nggak?
+May 28 16:29:05 <alunux>	Syandal_: array di php dinamis ya? bisa di-fixed kan ukurannya?
+May 28 16:29:21 <Syandal_>	sepertinya iya
+May 28 16:29:32 <Syandal_>	yang lain ada yang bisa bantu jawab nggak
+May 28 16:29:33 *	suka|baik has quit (Ping timeout: 268 seconds)
+May 28 16:30:07 <Syandal_>	kalo dibahasa lain dalam mendefinisikan array kadang ditentuin panjang arraynya
+May 28 16:30:53 <mampangprapatan>	halo halo
+May 28 16:30:59 <mampangprapatan>	bisa dijalankan kodenya
+May 28 16:31:09 <Syandal_>	ok :)
+May 28 16:31:11 *	dwix_ has quit (Ping timeout: 240 seconds)
+May 28 16:31:14 <Syandal_>	baiklah
+May 28 16:31:22 <Syandal_>	pak dwix_ kabur :v
+May 28 16:31:44 *	dwix_ (~dwip@202.67.40.17) has joined
+May 28 16:31:47 <Syandal_>	baiklah dari kode latihan 1 tersebut ada yang mau membantu menjelaskan maksud dari tiap barisnya nggak?
+May 28 16:32:45 <Syandal_>	kalo di bahasa java cara membuat array gini : banyakHariPerBulan = new int[12] ;
+May 28 16:32:58 <Syandal_>	jadi jumlah datanya tetap selalu 12
+May 28 16:33:21 <Syandal_>	kalo di php waktu membuat array panjang data nya nggak disebutin jadi kemungkinan panjangnya dinamis
+May 28 16:33:27 <Syandal_>	===============================
+May 28 16:33:45 <Syandal_>	baiklah untuk mempersingkat waktu kita bahas maksud dari baris kode latihan tersebut
+May 28 16:34:15 <Syandal_>	$barang1 = "tas";
+May 28 16:34:15 <Syandal_>	$barang2 = "buku";
+May 28 16:34:15 <Syandal_>	$barang3 = "topi";
+May 28 16:34:15 <Syandal_>	$barang4 = "smartphone";
+May 28 16:34:34 <Syandal_>	pada baris diatas adalah contoh ketika kita memiliki beberapa data tetapi menggunakan variabel biasa
+May 28 16:34:57 <Syandal_>	tiap2 variabel adalah data terpisah dari variabel lain
+May 28 16:35:25 <Syandal_>	sehinggal cara memanggil isi dari tiap tiap variabel tersebut seperti berikut :
+May 28 16:35:26 <Syandal_>	echo "Daftar Barang <br />";
+May 28 16:35:26 <Syandal_>	echo "1. " . $barang1 . "<br />";
+May 28 16:35:26 <Syandal_>	echo "2. " . $barang2 . "<br />";
+May 28 16:35:26 <Syandal_>	echo "3. " . $barang3 . "<br />";
+May 28 16:35:26 <Syandal_>	echo "4. " . $barang4 . "<br /><br />";
+May 28 16:35:35 <Syandal_>	===============================
+May 28 16:36:46 <Syandal_>	jadi dari contoh diatas menjadi tidak efektif karna kita memakai banyak variabel yaitu : $barang1, $barang2, $barang3, $barang4,
+May 28 16:36:49 *	dwix_ has quit (Remote host closed the connection)
+May 28 16:37:04 <Syandal_>	untuk baris selanjutnya ada yang mau bantuin menjelaskan nggak?
+May 28 16:37:05 *	wongjowo has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+May 28 16:37:09 <alunux>	mampangprapatan: bisa, ada tombol "Save and Run" di bagian kanan websitenya.
+May 28 16:37:19 *	dwix_ (~dwip@202.67.40.17) has joined
+May 28 16:37:40 <Syandal_>	kalo tombol save and run di klik, link nya jadi berubah nggak?
+May 28 16:37:55 <alunux>	Syandal_: iya
+May 28 16:37:55 <Syandal_>	link nya jadi tetap ini nggak https://www.tehplayground.com/6KhmXFR4CMKfITa4
+May 28 16:37:59 <Syandal_>	ow
+May 28 16:38:02 <Syandal_>	link nya jadi apa
+May 28 16:38:11 <mampangprapatan>	link nya tetap
+May 28 16:38:16 <Syandal_>	ow
+May 28 16:38:19 <mampangprapatan>	iya ada simpan dan lari 
+May 28 16:38:30 <Syandal_>	ow, coba di ubah trus di save and run
+May 28 16:38:35 <alunux>	hmm, mungkin karena sudah ane modif :v
+May 28 16:38:36 *	Syandal_ mau liat perubahannya
+May 28 16:38:37 <mampangprapatan>	oh berubah sekarang
+May 28 16:39:05 <mampangprapatan>	iya setiap di save and run linknya berubah
+May 28 16:39:18 <Syandal_>	ow ok
+May 28 16:39:27 <Syandal_>	link nya jadi apa
+May 28 16:40:02 <n0l>	link nya ngga berubah
+May 28 16:40:08 <Syandal_>	weew
+May 28 16:40:32 <mampangprapatan>	ini saya hapus salah satu baris komentar jadi -> https://www.tehplayground.com/ImHjIulfIhdLnevr
+May 28 16:40:58 <Syandal_>	iya tiap diubah linknya berubah
+May 28 16:41:46 *	mampangprapatan is now known as mampang
+May 28 16:41:53 <Syandal_>	===============================
+May 28 16:42:06 <Syandal_>	baiklah karna bentar lagi mau buka kita lanjutin pembahasannya
+May 28 16:42:15 *	suka|baik (~suka@unaffiliated/sukabaik/x-9504313) has joined
+May 28 16:42:38 <Syandal_>	berikut contoh mendefiniskan sebuah array pada php
+May 28 16:42:40 <Syandal_>	$barang2kuliah 	= array("kaos", "kemeja", "sepatu kets");
+May 28 16:43:06 <Syandal_>	nah kita bisa lihat bahwa kita hanya membuat sebuah variabel bernama $barang2kuliah yang berisi banyak data
+May 28 16:43:36 *	alunux afk, mau nyari buka dulu :)
+May 28 16:43:42 <Syandal_>	:3
+May 28 16:43:53 <Syandal_>	ngeri di tempatnya alunux udah waktunya berbuka :v
+May 28 16:44:04 <alunux>	karena nyari cewek gak boleh :|
+May 28 16:44:06 <mampang>	wah nitip dong alinux
+May 28 16:44:09 <Syandal_>	nah untuk memanggil tiap satuan datanya seperti ini >> echo "Daftar Pakaian <br />";
+May 28 16:44:09 <Syandal_>	echo "1. " . $barang2kuliah[0] . "<br />";
+May 28 16:44:09 <Syandal_>	echo "2. " . $barang2kuliah[1] . "<br />";
+May 28 16:44:09 <Syandal_>	echo "3. " . $barang2kuliah[2] . "<br /><br />";
+May 28 16:44:16 *	alunux afk
+May 28 16:44:18 <Syandal_>	:3
+May 28 16:44:20 <Syandal_>	ok
+May 28 16:45:03 <Syandal_>	nah kita perhatikan pas potongan baris berikut $barang2kuliah[0] << angka 0 itu adalah indeks dari array
+May 28 16:45:39 <Syandal_>	jadi seperti kata pak alunux bahwa array adalah berbasis indeks maksudnya untuk mengakses setiap satuan data didalam array kita mengaksesnya lewat indeksnya
+May 28 16:45:45 *	dwix_ has quit (Quit: Leaving)
+May 28 16:45:53 <Syandal_>	index defaultnya dimulai dari 0 bukan 1
+May 28 16:46:09 <Syandal_>	kalo di buku index artinya mungkin daftar isi
+May 28 16:46:22 <Syandal_>	kalo di array indek adalah daftar isi dari array
+May 28 16:46:33 <Syandal_>	index nggak harus selalu angka bisa juga string
+May 28 16:46:47 <Syandal_>	data array bisa berupa string, atau angka atau array lain
+May 28 16:47:09 <Syandal_>	jika data sebuah array berisi array lain itu disebut 'array multidimensional'
+May 28 16:47:19 <Syandal_>	nanti kita bahas di bagian selanjutnya
+May 28 16:47:35 <Syandal_>	ada yang mau menanyakan dulu nggak sebelum lanjut ke pembahasan berikutnya?
+May 28 16:47:44 <Syandal_>	===============================
+May 28 16:47:44 <mampang>	mau tanya
+May 28 16:47:48 <Syandal_>	silahkan
+May 28 16:48:19 <Syandal_>	yang lain ada yang bisa bantuin menjelaskan tentang baris selanjutnya dari contoh kode latihan 1 nggak?
+May 28 16:48:43 <mampang>	selain penulisannya seperti yg diatas: $angka = array("satu", "dua", "tiga");
+May 28 16:49:05 <mampang>	ada lagi tidak penulisannya array di php pak?
+May 28 16:49:27 <Syandal_>	ada seperti di contoh latihan 1
+May 28 16:49:27 <mampang>	apa memang harus seperti itu?
+May 28 16:49:59 <Syandal_>	selain penulisannya seperti yg diatas: $angka = array("satu", "dua", "tiga"); << kalo penulisannya seperti ini kita mengakses setiap satuan data dengan menggunakan indeks nya
+May 28 16:50:15 <Syandal_>	cara lain mendefinisikan array seperti ini >
+May 28 16:50:33 <Syandal_>	$barang2kost = array(1 => "PC", 2 => "Meja Belajar", 3 => "Lemari Pelasitik");
+May 28 16:50:43 <Syandal_>	bisa dilihat di contoh kode latihan 1
+May 28 16:51:18 <Syandal_>	pada baris tersebut kita membuat sebuah variabel array bernama $barang2kost 
+May 28 16:51:39 <mampang>	oh yang di line 31 ya
+May 28 16:51:48 <Syandal_>	nah array $barang2kost untuk indeks dan nilainya kita definisikan sendiri
+May 28 16:51:49 <Syandal_>	iya
+May 28 16:52:16 <Syandal_>	cara tersebut disebut mendefinisikan array menggunakan pasangan key and value
+May 28 16:52:26 <Syandal_>	nanti mengakses masing2 datanya jadi gini
+May 28 16:52:42 <Syandal_>	$namaarray[key] ;
+May 28 16:53:05 <Syandal_>	contoh prakteknya di baris 42
+May 28 16:53:14 <Syandal_>	/ sehingga cara manggilnya 
+May 28 16:53:14 <Syandal_>	echo "Daftar Barang Kost <br />";
+May 28 16:53:14 <Syandal_>	echo "1. " . $barang2kost[1] . "<br />";
+May 28 16:53:14 <Syandal_>	echo "2. " . $barang2kost[2] . "<br />";
+May 28 16:53:14 <Syandal_>	echo "3. " . $barang2kost[3] . "<br /><br />";
+May 28 16:53:34 <Syandal_>	karna kita mendifiniskan key pertama adalah 1 maka indeksnya dimulai dengan 1
+May 28 16:54:20 <mampang>	berarti terserah kita indeksnya mau ditempatkan di nomor berapa aja ya pak?
+May 28 16:54:40 <Syandal_>	selain menggunakan angka kita bisa mendifinisikan key nya menggunakan string .. contohnya di latihan pas baris 49
+May 28 16:54:52 <Syandal_>	kalo key value.. terserah indeksnya
+May 28 16:55:10 <Syandal_>	tapi kalo kita nggak mendefinisikan key - value indeksnya dimulai dari 0
+May 28 16:55:14 <Syandal_>	contoh berikut juga bisa
+May 28 16:55:33 <Syandal_>	$namamemberjkt48 = array();
+May 28 16:55:55 <Syandal_>	$namamemberjkt48[0] = "nabil";
+May 28 16:56:22 <Syandal_>	$namamemberjkt48[1] = "melodi";
+May 28 16:56:34 <Syandal_>	$namamemberjkt48[2] = "dijjah yellow";
+May 28 16:56:38 <Syandal_>	dst
+May 28 16:57:06 <mampang>	oh ok paham
+May 28 16:57:13 <Syandal_>	di baris 49 kita mendefinisikan array seperti ini 
+May 28 16:57:14 <Syandal_>	$nilaikuliahku = array(
+May 28 16:57:14 <Syandal_>		"Pancasila" => 60,
+May 28 16:57:14 <Syandal_>		"Agama Islam" => 65,
+May 28 16:57:14 <Syandal_>		"Algoritma" => 55,
+May 28 16:57:14 <Syandal_>		"Pengantar TI" => 45 ); 
+May 28 16:57:28 <Syandal_>	nah yang jadi indeksnya string
+May 28 16:57:42 <Syandal_>	yaitu "Pancasila" "Agama Islam" dst
+May 28 16:57:50 <Syandal_>	contoh memanggil data nya
+May 28 16:58:06 <Syandal_>	/ sehingga cara manggilnya 
+May 28 16:58:06 <Syandal_>	echo "Daftar Nilai <br />";
+May 28 16:58:06 <Syandal_>	echo "1. Pancasila " . $nilaikuliahku["Pancasila"] . "<br />";
+May 28 16:58:06 <Syandal_>	echo "2. Agama Islam " . $nilaikuliahku["Agama Islam"] . "<br />";
+May 28 16:58:06 <Syandal_>	echo "3. Algoritma " . $nilaikuliahku["Algoritma"] . "<br />";
+May 28 16:58:06 <Syandal_>	echo "4. Pengantar TI " . $nilaikuliahku["Pengantar TI"] . "<br /><br />";
+May 28 16:58:39 <Syandal_>	untuk baris selanjutnya bisa dilihat sendiri di kode latihan 1 tersebut
+May 28 16:58:45 <Syandal_>	ada yang mau bertanya dulu nggak
+May 28 16:58:52 <mampang>	kalau dibalik bisa gak pak? misal $data = array("Pancasila" <= 5, "UUD" <= 1945);
+May 28 16:58:53 <Syandal_>	sebelum kita masuk ke multidimensional array
+May 28 16:59:02 <Syandal_>	sepertinya nggak bisa
+May 28 16:59:13 <Syandal_>	operator yang dipake ini =>
+May 28 16:59:21 <Syandal_>	ada pertanyaan lain nggak
+May 28 17:00:30 <Syandal_>	===============================
+May 28 17:00:47 <Syandal_>	baiklah untuk mempersingkat waktu kita lanjut ke pembahasan berikut nya
+May 28 17:01:02 <Syandal_>	ARRAY MULTIDIMENSIONAl
+May 28 17:01:17 <Syandal_>	array multidimensional adalah array yang berisi array lain
+May 28 17:01:30 <Syandal_>	sering digunakan ketika datanya beruta tabel
+May 28 17:01:49 <Syandal_>	kalo kita mempelajari framework php array multidimensional tersebut sangat sering dipake
+May 28 17:01:54 <Syandal_>	terutama pada crud dan orm
+May 28 17:02:15 <Syandal_>	saat data diambil dari database, maka data tersebut diolah menjadi array multidimensional
+May 28 17:02:26 <Syandal_>	nah kita tinggak menggunakan array multidimensional tersebut
+May 28 17:02:45 <Syandal_>	contoh untuk array multidimensional bisa kita lihat di latihan 3 berikut\
+May 28 17:03:41 <Syandal_>	https://www.tehplayground.com/CJInBzEIp7Q8dBC3
+May 28 17:03:48 <Syandal_>	===============================
+May 28 17:04:16 <Syandal_>	untuk kode latihan2 karna masih berhubungan dengan array biasa bisa dipelajari sendiri
+May 28 17:04:29 <Syandal_>	nah untuk array multidimensional ada yang mau ditanyain dulu nggak 
+May 28 17:04:35 *	Syandal_ tunggu 2 menit
+May 28 17:05:05 *	bachtiar (7da3aeb4@gateway/web/freenode/ip.125.163.174.180) has joined
+May 28 17:05:33 <mampang>	kalau array dalam array disi array lagi bisa gak pak?
+May 28 17:05:47 <Syandal_>	iya bisa itu namanya array multidimensional
+May 28 17:06:06 <Syandal_>	coba dilihat disini deh >> https://www.tehplayground.com/CJInBzEIp7Q8dBC3
+May 28 17:06:11 <mampang>	arraynya lebih dari dua tingkatan bisa?
+May 28 17:06:37 <Syandal_>	sepertinya bisa banyak tingkatan
+May 28 17:06:45 <Syandal_>	asal logikanya kuat aja waktu bikinnya
+May 28 17:07:32 <Syandal_>	misalnya kita contoh bikin array 1 dimensi seperti ini >> $mobilbiasa = array("Honda", "Suzuki", "Toyota", "Daihatsu");
+May 28 17:08:11 <Syandal_>	contoh array multidimensional seperti ini >> $mobil = array(	array("Honda", 20, 18),	array("Suzuki", 17, 15),	array("Toyota", 18, 15),	array("Daihatsu", 25, 20)	);
+May 28 17:08:43 <Syandal_>	kita membuat array multidimensional pada satu baris atau banyak baris sama aja, berikut contoh kita pisah jadi banyak baris
+May 28 17:09:00 <Syandal_>	--------------------------
+May 28 17:09:01 <Syandal_>	$mobil = array(
+May 28 17:09:01 <Syandal_>		array("Honda", 20, 18),
+May 28 17:09:01 <Syandal_>		array("Suzuki", 17, 15),
+May 28 17:09:01 <Syandal_>		array("Toyota", 18, 15),
+May 28 17:09:01 <Syandal_>		array("Daihatsu", 25, 20)
+May 28 17:09:01 <Syandal_>		);
+May 28 17:09:09 <Syandal_>	--------------------------
+May 28 17:09:48 <Syandal_>	disitu kita lihat, saat di field harusnya kita isi data tetapi kita isi array lain
+May 28 17:10:08 <Syandal_>	contoh >> $mobil = array(      ,       ,       ,      );
+May 28 17:10:37 <Syandal_>	nah tiap fieldnya kita isi array lain misalnya >> array("Honda", 20, 18)
+May 28 17:10:46 <Syandal_>	ada pertanyaan atau tanggapan dulu nggak
+May 28 17:11:02 <Syandal_>	===============================
+May 28 17:11:55 *	Syandal_ nungguin 2 menit
+May 28 17:13:07 <Syandal_>	nah cara mengakses data pada array multidimensional seperti ini
+May 28 17:13:21 <Syandal_>	$namaarray[indeks1][indeks2]
+May 28 17:13:44 <Syandal_>	dimana indeks1 adalah baris nya.. dan indeks2 adalah kolom dari array nya
+May 28 17:14:51 <Syandal_>	pada contoh array $mobil[][] maka pada baris ini $mobil[0][0]  akan menghasilkan "Honda"  pada $mobil[0][1]  akan menghasilkan 20    dan pada $mobil[0][2]  akan menghasilkan 18
+May 28 17:15:14 <Syandal_>	untuk baris kedua dst seperti itu
+May 28 17:15:47 <mampang>	kalau ada 3 tingkatan mengaksesnya $data[index][index][index] ya pak?
+May 28 17:15:53 <Syandal_>	untuk mengakses tiap2 data dari array kita bisa menggunakan perulangan .. selama kita mengetahui tiap2 indeks dari array nya 
+May 28 17:16:00 <Syandal_>	iya kayak gitu
+May 28 17:16:05 <mampang>	ok baik
+May 28 17:17:08 *	Arif__ (ca2b5f1a@gateway/web/freenode/ip.202.43.95.26) has joined
+May 28 17:17:12 *	Arif__ has quit (Client Quit)
+May 28 17:17:42 *	Dian (ca2b5f1a@gateway/web/freenode/ip.202.43.95.26) has joined
+May 28 17:18:14 *	suka|baik has quit (Ping timeout: 255 seconds)
+May 28 17:18:16 <Dian>	.
+May 28 17:21:40 <mampang>	udah mau magrib nih
+May 28 17:23:17 <Syandal_>	hmm
+May 28 17:23:25 <Syandal_>	ada pak Dian pelangi
+May 28 17:23:35 <Syandal_>	ini contoh array 3 dimensi >> https://www.tehplayground.com/6CIV0KrJcLZDdOOQ
+May 28 17:23:47 <bachtiar>	iya yah
+May 28 17:23:56 <Syandal_>	coba di jalanin sendiri pake rumus ini  $data[index][index][index]
+May 28 17:24:34 <Syandal_>	udah mau azan
+May 28 17:24:42 <Syandal_>	disitu ada yang udah mau azan nggak
+May 28 17:25:21 <bachtiar>	kurang lebih 20 menit lagi pak, hehe
+May 28 17:25:23 <Syandal_>	yang mau nyoba sendiri file latihan pertemuan pertama hari ini ada disini >> https://www.dropbox.com/s/jlioie283of6cj3/pertemuan1oop_php.zip?dl=0
+May 28 17:25:28 <Syandal_>	ow
+May 28 17:25:28 <mampang>	kodenya jalan pak
+May 28 17:25:39 <Syandal_>	minta link nya?
+May 28 17:25:46 <mampang>	utk pemanggilannya juga berhasil
+May 28 17:26:31 <Syandal_>	untuk mengakses array juga kita bisa pake perulangan
+May 28 17:26:37 <mampang>	https://www.tehplayground.com/wxSoLK7dXtVhIVxq
+May 28 17:26:49 <Syandal_>	cek tkp
+May 28 17:26:50 <mampang>	bagaimana itu pak caranya
+May 28 17:28:24 <Syandal_>	ini contoh nya >> https://www.tehplayground.com/xj1zHjDSKceuI8QT
+May 28 17:28:51 <Syandal_>	karna udah deket waktu azan sesi selanjutnya adalah sesi tanya jawab bebas
+May 28 17:29:15 <Syandal_>	temen2 bisa nyoba sendiri kode latihan yang bisa di download di dropbox
+May 28 17:30:26 <Syandal_>	nah pas pada konteks framework.. misalnya di bagian kita menjalankan method untuk membaca data.. hasil dari method tersebut biasanya disimpan sebagai variabel array
+May 28 17:31:03 <Syandal_>	trus untuk mengakses tiap2 datanya kita berlakukan seperti array yaitu menggunakan indeks nya
+May 28 17:31:12 <Syandal_>	atau bisa menggunakan perulangan
+May 28 17:35:13 <Syandal_>	ini udah diperbaiki >> https://www.tehplayground.com/n6UbX0IYXu4EwsRo
+May 28 17:35:17 *	n0l has quit (Quit: leaving)
+May 28 17:35:33 <Syandal_>	silahkan kalo ada yang mau bertanya
+May 28 17:36:31 <mampang>	baik pak
+May 28 17:36:36 <mampang>	siap2 berbuka puasa
+May 28 17:36:42 <Syandal_>	nah itu
+May 28 17:36:49 <Syandal_>	\(^_^)/
+May 28 17:37:04 <mampang>	terimakasih ilmu yg diberikan : )
+May 28 17:37:12 <Syandal_>	kalo sambil belajar online waktu terasa cepet berlalu ya
+May 28 17:37:17 *	Syandal_ pemula
+May 28 17:37:33 <mampang>	iya, tidak terasa bentar lagi nih
+May 28 17:37:34 <Syandal_>	mastah kanal nya nick nya t*******n 
+May 28 17:37:40 <mampang>	afk dulu
+May 28 17:37:48 <Syandal_>	ok sama
+May 28 17:37:53 *	Syandal_ juga mau afk
+May 28 17:38:02 <Syandal_>	===============================
+May 28 17:38:15 <Syandal_>	kesimpulan
+May 28 17:38:34 <Syandal_>	- array digunakan untuk menyimpan banya data dalam sebuah variabel
+May 28 17:39:12 <Syandal_>	- isi array bisa berupa data sederhana atau bisa berupa array lain
+May 28 17:39:50 <Syandal_>	- di framework array biasanya digunakan untuk menyimpan data setelah data tersebut diambil dari database, terutama jika datanya berupa tabel yang multidimensi
+May 28 17:40:10 <Syandal_>	- dst, peserta bisa mempelajari pada kode latihan yang di download di dropbox
+May 28 17:40:22 <Syandal_>	pertemuan selanjutnya sekitar sabtu depan
+May 28 17:40:29 <Syandal_>	jam nya seperti biasa abis ashar
+May 28 17:40:48 <Syandal_>	silabusnya bisa dilihat di git.io/vHvzU
+May 28 17:41:56 *	Syandal_ karna sebentar lagi waktunya berbuka puasa untuk wilayah jakarta dan sekitarnya, akhirnya mengucapkan materi belajar bersama kita akhiri sampai disini.. kita ketemu lagi sabtu depan, wassalamu alaikum wr. wb.
+May 28 17:42:10 *	Disconnected ()
